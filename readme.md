@@ -56,14 +56,11 @@ Nearly all contemporary metaverses, blockchain-backed or not, have a similar eco
 
 However, in the virtual world, there are several negative and perhaps unforeseen side-effects this approach has had:
 
-1. **Inequitability**
-Artificial scarcity has caused a land grab, raising the cost of space to unsustainable levels. Even the least-demanded land in the metaverse is cost-prohibitive (as far as digital goods go). This restricts the metaverse to those who have the financial means to participate in it.
+1. **Inequitability.** Artificial scarcity has caused a land grab, raising the cost of space to unsustainable levels. Even the least-demanded land in the metaverse is cost-prohibitive (as far as digital goods go). This restricts the metaverse to those who have the financial means to participate in it.
 
-2. **Squatters and dead-space**
-Metaverse space is primarily purchased as an investment, rather than a space to showcase interesting content. Without engaging content, the Metaverse appears lifeless and empty. When a user _does_ add something interesting to the Metaverse, they increase the value of the adjacent land, attracting new buyers who who intend to capitalize on this, and leave it barren and unsightly. So content-creators are actually punished for creating valuable content.
+2. **Squatters and dead-space.** Metaverse space is primarily purchased as an investment, rather than a space to showcase interesting content. Without engaging content, the Metaverse appears lifeless and empty. When a user _does_ add something interesting to the Metaverse, they increase the value of the adjacent land, attracting new buyers who intend to capitalize on this, and leave it barren and unsightly. So content-creators are actually punished for creating valuable content.
 
-3. **Barrier to adoption**
-New users are quick to identify these problems, as evidenced by the numerous editorials highlighting these very flaws (see [Further Reading](#further-reading)). The prices and lack of interesting content result in a bad impression of the Metaverse. Users who might have contributed to the Metaverse by adding content instead abandon the idea altogether.
+3. **Barrier to adoption.** New users are quick to identify these problems, as evidenced by the numerous editorials highlighting these very flaws (see [Further Reading](#further-reading)). The prices and lack of interesting content result in a bad impression of the Metaverse. Users who might have contributed to the Metaverse by adding content instead abandon the idea altogether.
 
 These side-effects have resulted in a self-perpetuating cycle that threatens the future of Metaverse adoption.
 
