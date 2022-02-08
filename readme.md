@@ -46,13 +46,13 @@ other projects can use it as their underlying spatial structure.
   - [Partnerships and Evangelism](#partnerships-and-evangelism)
   - [Reference Implementations and Developer Tools](#reference-implementations-and-developer-tools)
 - [Conclusion](#conclusion)
-- [Note and Further Reading](#note-and-further-reading)
+- [Notes and Further Reading](#notes-and-further-reading)
   - [Notes](#notes)
   - [Further Reading](#further-reading)
 
 ## Introduction
 
-Nearly all contemporary metaverses, blockchain-backed or not, have a similar economic model that relies on the artificial scarcity of space to ensure a stable land economy. This model appears to have stemmed from economic laws that occur in our physical world, where land is inherently scarce, and therefore a reliable investment.
+Nearly all blockchain-backed metaverses have a similar economic model that relies on the artificial scarcity of space to ensure a stable land economy. This model appears to have stemmed from economic laws that occur in our physical world, where land is inherently scarce, and therefore a reliable investment.
 
 However, in the virtual world, there are several negative and perhaps unforeseen side-effects this approach has had:
 
@@ -312,6 +312,10 @@ Several population phenomena occur in the real world that would not occur in a s
 
 ### New Medium
 
+**3d World Wide Web.** A graph-based, non-Euclidean approach has many similarities to hypertext. In the 2d Web, hypertext documents are connected together via hyperlinks. Nfinity can be interpreted as that concept extended to 3d. Spaces are hypertext documents for 3d content, Portals are hyperlinks to other Spaces. One positive side-effect of this approach is that it makes Spaces more easy to rank by revelance. Documents (Spaces) can be given higher precedence depending on how many Portals link to them. It would not be difficult to develop a Google PageRank-style algorithm for organizing and searching through Spaces.
+
+In this respect, current metaverses that use grids and Euclidean geometry are akin to pre-Web documents, like print. As an example, ad space in a newspaper is a Euclidean spatial system where the owner of one space can't choose the contents of its adjacent spaces. It is a paradigm that is easy for users to digest, but unimaginable as a user experience on the Web. The Nfinity model modernizes metaverse land systems to take advantage of basic concepts introduced by the digital Web.
+
 **Self Expression.** It's possible for landowners to use the features of Nfinity to develop new forms of self-expression; whether they're artistic, conceptual, organizational, etc. Virtual land has become a sort of 3d version of a customizable, social network profile page. In Nfinity, the customizability even extends to who one chooses as neighbors, and how they wish to display them. This could be both good and bad; an individual might create a Portal to their favorite neighbor and frame it with a heart shape. They might also create a Portal to an unliked neighbor and frame it with something more offensive. So not only will this create new forms of expression, but also new forms of cyber-bullying. Systems that provide opt-in, consensus-based censorship will need to be developed in a layer separate from Nfinity.
 
 **Marketing Channel.** The Metaverse has already seen the emergence of a new market in which land can be sold as ad space. In Nfinity, landowners whose land is highly trafficked might be able to rent their Portals out to the highest bidders; similar to how influencers can market products to their followers. Again, there is good and bad that comes with this. One benefit to Nfinity's structure however is that landowners can't be "locked-in" next to another landowner that has filled their property with ads. So this is both a new form of advertising that is also self-policing.
@@ -363,7 +367,7 @@ The Metaverse has many criticisms, most of which stem from the overtly non-compe
 
 Nfinity intends to provide a framework and service so that virtual worlds can fulfill the promise of transcending physical limitations. It is a modern economic model that takes advantage of the abundance in virtual worlds to create a fair, equitable system of land ownership. It solves many problems that exist in real estate today and creates a more inclusive, accessible, and collaborative virtual environment that anyone can participate in. Nfinity is a new paradigm in virtual space that can have a positive impact on the direction of the Metaverse in the years to come.
 
-## Note and Further Reading
+## Notes and Further Reading
 
 ### Notes
 
