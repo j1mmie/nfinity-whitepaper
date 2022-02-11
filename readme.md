@@ -2,7 +2,7 @@
 
 <div class="subtitle">
 
-**A Better Land Economy for the Metaverse**
+**A Better Structure and Economy for Space in the Metaverse**
 
 </div>
 
@@ -20,7 +20,7 @@ Author: Jimmie Tyrrell • [jimmie@nfinity.space](mailto:jimmie@nfinity.space)
 
 <div class="abstract">
 
-**Abstract.** For the Metaverse to achieve wider adoption, it must solve, rather than perpetuate, problems caused by artificial scarcity and physical constraints. These factors have made land in the Metaverse cost prohibitive, and have caused a land grab leaving much of it owned, but barren (dead-space). A naive solution would simply uncap the supply of land, but that would negate the investment incentive of purchasing land, which would curb adoption. Furthermore, it does not solve the problem of dead-space. A better solution is to forgo real-world inspired structure (like the grid), and instead use a graph-based approach, where land nodes can be dynamically linked and unlinked as needed. To ensure the economy instills confidence as an investment, land can earn the ability to create more links over time ("appreciation of utility"). Such a solution can be made a public good service so that the model becomes widely adopted, and
+**Abstract.** For the Metaverse to achieve wider adoption, it must solve, rather than perpetuate, problems caused by artificial scarcity and physical constraints. These factors have made space in the Metaverse cost prohibitive, having caused a land grab leaving much of it owned, but barren (dead-space). A naive solution would simply uncap the supply of space, but that would negate the investment incentive of purchasing space, which would curb adoption. Furthermore, it does not solve the problem of dead-space. A better solution is to forgo real-world structure (like a grid), and instead use a graph-based approach, where space nodes can be dynamically linked and unlinked as needed. To ensure the economy instills confidence as an investment, spaces can earn the ability to create more links over time ("appreciation of utility"). Such a solution can be made a public good service so that the model becomes widely adopted, and
 other projects can use it as their underlying spatial structure.
 
 </div>
@@ -28,11 +28,12 @@ other projects can use it as their underlying spatial structure.
 - [Introduction](#introduction)
 - [Overview](#overview)
 - [The Nfinity Model](#the-nfinity-model)
-  - [Infinite Space](#infinite-space)
-  - [Land Autonomy](#land-autonomy)
-  - [Land Value Appreciation](#land-value-appreciation)
-- [The Nfinity Spatial Service](#the-nfinity-spatial-service)
   - [Terminology](#terminology)
+  - [Infinite Space](#infinite-space)
+  - [Autonomy](#autonomy)
+  - [Appreciation](#appreciation)
+- [The Nfinity Spatial Service](#the-nfinity-spatial-service)
+  - [Terminology](#terminology-1)
   - [Spaces](#spaces)
   - [Portals](#portals)
   - [Points](#points)
@@ -52,7 +53,7 @@ other projects can use it as their underlying spatial structure.
 
 ## Introduction
 
-Nearly all blockchain-backed metaverses have a similar economic model that relies on the artificial scarcity of space to ensure a stable land economy. This model appears to have stemmed from economic laws that occur in our physical world, where land is inherently scarce, and therefore a reliable investment.
+Nearly all blockchain-backed metaverses have a similar economic model that relies on the artificial scarcity of space to ensure a stable land economy. This model appears to have stemmed from natural economic occurances in our physical world, where land is inherently scarce, and therefore a reliable investment.
 
 However, in the virtual world, there are several negative and perhaps unforeseen side-effects this approach has had:
 
@@ -68,37 +69,74 @@ These side-effects have resulted in a self-perpetuating cycle that threatens the
 
 Nfinity intends to solve the aforementioned problems by providing the following:
 
-1. **A Model**: an open-source strategy for land economics that metaverses may employ.
-2. **A Service**: a decentralized application that manages virtual space according to said model, which other metaverses may build on top of.
+1. **A Model**: an open-source specification for structuring space and operating its economy, which any metaverse may adopt.
+2. **A Service**: a decentralized application that manages virtual space according to said model, which any metaverse may build on top of.
 
 Nfinity's offerings will be provided and governed by a decentralized autonomous organization, the Nfinity DAO. The DAO will serve to define the model, maintain the service, and promote equitable land ownership through the Metaverse.
 
 ## The Nfinity Model
 
-The Nfinity land economic model defines three core characteristics. For a system to be in accordance with Nfinity's model, it must adhere to all three. These characteristics are:
+The Nfinity Model defines both a data structure for virtual space, as well as requirements for the equitable management of that space.
 
-1. Infinite Space
-2. Land Autonomy
-3. Land Value Appreciation
+Regarding the data structure, rather than a grid-based, static structure, like in the real-world, Nfinity is graph-based, dynamic, and non-Euclidean.
+
+This approach has many similarities to hypertext [1]. In the 2d web, hypertext documents are connected together via hyperlinks. Nfinity can be interpreted as that concept extended to 3d. Instead of documents, Nfinity uses virtual space as a medium for displaying 3d content.
+
+In Nfinity, each space is essentially a hypertext document for 3d content. One space can link to multiple other spaces, just like one webpage can hyperlink to multiple other webpages.
+
+<table border="0" align="center">
+    <tr>
+        <td width="47.5%" align="center" valign="middle" class="figure">
+          <img src="images/web.png" width="400" />
+        </td>
+        <td width="5%" class="spacer"></td>
+        <td width="47.5%" align="center" valign="middle" class="figure">
+          <img src="images/graph.png" width="400" />
+        </td>
+    </tr>
+    <tr>
+        <td width="47.5%" valign="top">
+          <sub>The web: Hypertext documents that are linked together via hyperlinks [1]</sub>
+        </td>
+        <td width="5%" class="spacer"></td>
+        <td width="47.5%" valign="top">
+          <sub>Nfinity: Space is linked together in a similar manner</sub>
+        </td>
+    </tr>
+</table>
+
+Aside from the virtual structure of the space, the model further defines three core principles on how that space is operated. These principles are:
+
+1. Space must be infinite
+2. Owners of a space must have full autonomy over it
+3. Space must appreciate in value
+
+### Terminology
+
+This document sometimes refers to space in in a grid-based, Euclidean system as "land." That's because most existing metaverses treat space in such a way, following structure and economic models from land in the real world. The term "land" is use mostly to denote the antiquated approach to structuring space.
+
+Additionally,
+
+TODO: Forgot what I was going to mention here...
 
 ### Infinite Space
 
-Ownership of land is one of the minimum requirements to participate in a metaverse. When land is cost-prohibitive, a class system arises with two distinct roles; the landowners and the land-less. Of course, a user _can_ engage with a metaverse even if they don't have land. But this type of dichotomy is something that we've seen occur in the physical world. We can avoid this in the Metaverse by making it more inclusive.
+Ownership of space is one of the minimum requirements to participating in a metaverse. When land is cost-prohibitive, a class system arises with two distinct roles; the landowners and the land-less. Of course, a user _can_ engage with a metaverse even if they don't have land. But this type of dichotomy is something that we've seen occur in the real world. We can avoid this in the Metaverse by making it more inclusive.
 
 If the Metaverse is to become as pervasive as, say, cryptocurrency, then land must be as abundant as addresses are on the blockchain. Just like address ownership, there should be minimal barriers to owning land. Infinite space is an obvious way to make this happen. If land ownership is accessible to everyone, then the system is considered to be inclusive and equitable. In an equitable system, users are more likely to join, participate, and create content, so the barrier to entry is lower.
 
 On its own, the concept of infinite space solves problems around equitability and adoption. However, the consequences of uncapped land supply must be dealt with appropriately; we discuss some strategies further down.
 
-### Land Autonomy
+### Autonomy
 
 Land autonomy is the freedom for landowners to govern their land however they want. Usually, this freedom applies to the content associated with one's land, but there's another type of autonomy that has become important in the Metaverse; the freedom to control what one's land is surrounded by.
 
 In a grid-based land system, land is static. It can't be relocated, nor can the land neighboring it be; all land is "landlocked" by its immovable neighbors. This has caused problems for content creators, the people who increase the value of their neighborhoods and give life to the Metaverse. Landowners are essentially punished for placing engaging or compelling content in their space. It attracts squatters to buy the land around them, which is left barren and creates an unsightly wasteland around their content.
 
-<table border="0" align="center">
+<table border="0" align="center" width="400">
     <tr>
-        <td width="400">
-            <img src="images/image1.png" width="400" />
+        <td align="center">
+            <img src="images/landlocked.png" width="400" /><br />
             <sub>Land in a grid-based system is always "landlocked" by immovable, adjacent land</sub>
         </td>
     </tr>
@@ -106,25 +144,16 @@ In a grid-based land system, land is static. It can't be relocated, nor can the 
 
 Land should have the capacity to exist in isolation from all other land in the system. Landowners should be able to choose if and when they want to introduce neighboring land. This level of land autonomy ensures that dead-space doesn't crop up around all interesting content in the Metaverse. But it's practically impossible to provide land autonomy in a system that mimics the limitations of the physical world. However, the versatility of virtual space makes it easy. One solution is to use a graph-based structure instead of a grid-based one, and to link land nodes together via unidirectional or bidirectional "portals".
 
-<table border="0" align="center">
-    <tr>
-        <td width="400">
-            <img src="images/image2.png" width="400" />
-            <sub>Land in a graph-based system can be linked together via "portals." The structure can be reconfigured as needed. This gives landowners the ability to choose their neighbors.</sub>
-        </td>
-    </tr>
-</table>
-
 In this approach, landowners needn't worry about attracting unwanted attention. If their neighbors are harming their experience in the Metaverse, they can simply pick new ones. This mitigates the threat of squatters, so newcomers to the Metaverse won't be overwhelmed with unsightly dead-space, resulting in an increase in adoption.
 
-### Land Value Appreciation
+### Appreciation
 
 To sustain a land economy, the market must guarantee reliable appreciation and instill economic confidence. This guarantee gives potential buyers the confidence to acquire land and populate it it. When the population increases, the social graph becomes more dense and more opportunities for trade and commerce emerge. These new opportunities provide new potential buyers with confidence in the economy. This could be described as a virtuous cycle.
 
 <table border="0" align="center">
     <tr>
-        <td width="520">
-            <img src="images/cycle.png?3" width="520" />
+        <td width="520" align="center">
+            <img src="images/cycle.png" width="520" />
             <sub>Virtuous cycle of economic growth and population growth</sub>
         </td>
     </tr>
@@ -312,9 +341,9 @@ Several population phenomena occur in the real world that would not occur in a s
 
 ### New Medium
 
-**3d World Wide Web.** A graph-based, non-Euclidean approach has many similarities to hypertext. In the 2d Web, hypertext documents are connected together via hyperlinks. Nfinity can be interpreted as that concept extended to 3d. Spaces are hypertext documents for 3d content, Portals are hyperlinks to other Spaces. One positive side-effect of this approach is that it makes Spaces more easy to rank by revelance. Documents (Spaces) can be given higher precedence depending on how many Portals link to them. It would not be difficult to develop a Google PageRank-style algorithm for organizing and searching through Spaces.
+**3d World Wide Web.** Earlier, Nfinity's approach is described as a 3d implementation of hypertext. To reiterate, Spaces are hypertext documents for 3d content, Portals are hyperlinks to other Spaces. One side-effect to this approach is that it makes Spaces more easy to rank by relevance. Documents (Spaces) can be given higher precedence depending on how many Portals link to them. It would not be difficult to develop a Google PageRank-style algorithm for organizing and searching through Spaces.
 
-In this respect, current metaverses that use grids and Euclidean geometry are akin to pre-Web documents, like print. As an example, ad space in a newspaper is a Euclidean spatial system where the owner of one space can't choose the contents of its adjacent spaces. It is a paradigm that is easy for users to digest, but unimaginable as a user experience on the Web. The Nfinity model modernizes metaverse land systems to take advantage of basic concepts introduced by the digital Web.
+In this respect, current metaverses that use grids and Euclidean geometry are akin to pre-web documents, like print. As an example, ad space in a newspaper is a Euclidean spatial system where the owner of one space can't choose the contents of its adjacent spaces. It is a paradigm that is easy for users to digest, but unimaginable as a user experience on the web. The Nfinity model modernizes metaverse land systems to take advantage of basic concepts introduced by the digital web.
 
 **Self Expression.** It's possible for landowners to use the features of Nfinity to develop new forms of self-expression; whether they're artistic, conceptual, organizational, etc. Virtual land has become a sort of 3d version of a customizable, social network profile page. In Nfinity, the customizability even extends to who one chooses as neighbors, and how they wish to display them. This could be both good and bad; an individual might create a Portal to their favorite neighbor and frame it with a heart shape. They might also create a Portal to an unliked neighbor and frame it with something more offensive. So not only will this create new forms of expression, but also new forms of cyber-bullying. Systems that provide opt-in, consensus-based censorship will need to be developed in a layer separate from Nfinity.
 
@@ -331,9 +360,13 @@ A way to tag Portals so that different metaverses can choose how to display them
 
 **Programmable Portals.** Everything in the Metaverse has the potential to be programmable, and Portals are no exception. One approach is a system where Portals can delegate some (or all) of their attributes to another smart contract. Since Portals are not NFTs, the smart contract would not be able to do anything permanently destructive. There could be smart contracts that change a Portal's destination to the highest bidder. Or the account with the most recently acquired NFT from a collection. Or a random patron, to spotlight a Space owner's followers.
 
+One can imagine a Space in Nfinity that is programmed to be a link aggregator. Like a 3d version of Reddit that uses Portals instead of hyperlinks. Upon each visit, the Portals link to a new set of dynamically chosen Spaces.
+
 **Centralized Games.** Games that are better suited as centralized experiences can still use Nfinity to generate and connect land within the game. For example, a game like Minecraft can use the Portal definitions from Nfinity to overlay Portals in a Minecraft world. The Portals can connect users' different Minecraft server instances.
 
 **Usage-Based Appreciation of Utility.** A more advanced Point-accrual process could be implemented, one that rewards benevolent use of the space. For example, Point accrual could be accelerated when other Spaces connect to one's Portals. It could be accelerated for Spaces that have used their Points for Enhancements. There could even be a voting system where users vote for which Spaces should accrue Points faster. In general, the goal is to reward landowners for making the Metaverse a more accessible and/or lively place.
+
+**Uniform Resource Locators..** TODO: Describe URLs like nfinity://snoop.eth, ENS, etc
 
 ## The Nfinity DAO
 
@@ -377,12 +410,14 @@ Nfinity intends to provide a framework and service so that virtual worlds can fu
 
 ### Further Reading
 
-1. Julian Simon, [The Ultimate Resource](http://www.juliansimon.com/writings/Ultimate_Resource/) (Princeton, NJ: Princeton University Press, 1981).
+1. Ted Nelson. 1965. [Complex information processing: a file structure for the complex, the changing and the indeterminate](https://dl.acm.org/doi/10.1145/800197.806036). In Proceedings of the 1965 20th national conference (ACM '65). Association for Computing Machinery, New York, NY, USA, 84–100.
 
-2. [Artificial Scarcity Will Hurt the Metaverse](https://medium.com/the-ultra-reality/artificial-scarcity-will-hurt-the-metaverse-5609bbc82b1a)
+2. Julian Simon. 1981. [The Ultimate Resource](http://www.juliansimon.com/writings/Ultimate_Resource/). Princeton University Press. Princeton, NJ.
 
-3. [The Metaverse Land Rush Is an Illusion](https://www.wired.com/story/metaverse-land-rush-illusion/)
+3. [Artificial Scarcity Will Hurt the Metaverse](https://medium.com/the-ultra-reality/artificial-scarcity-will-hurt-the-metaverse-5609bbc82b1a)
 
-4. [Metaverse Scarcity Isn’t Real](https://www.coindesk.com/layer2/2022/01/11/metaverse-scarcity-isnt-real/)
+4. [The Metaverse Land Rush Is an Illusion](https://www.wired.com/story/metaverse-land-rush-illusion/)
 
-5. [Games Demystified: Portal](https://www.gamasutra.com/view/feature/3770/games_demystified_portal.php)
+5. [Metaverse Scarcity Isn’t Real](https://www.coindesk.com/layer2/2022/01/11/metaverse-scarcity-isnt-real/)
+
+6. [Games Demystified: Portal](https://www.gamasutra.com/view/feature/3770/games_demystified_portal.php)
